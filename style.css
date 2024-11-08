@@ -81,6 +81,34 @@ a {
     padding-bottom: 20px;
 }
 
+.photos-section {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+.some-text {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: bold;
+}
+
+.photos-section ul {
+    display: flex;
+    gap: 60px;
+    padding: 0;
+}
+
+.photos-section li {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.photos-section p {
+    width: 200px;
+}
+
 button {
     background-color: #3882F6;
     color: #F9FAF8;
