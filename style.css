@@ -33,7 +33,8 @@ a {
 }
 
 .header a,
-.footer {
+.footer,
+.content p {
     color: #E5E7EB;
     font-size: 18px;
 }
@@ -47,8 +48,25 @@ a {
     font-size: 24px;
 }
 
+.content h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
 .content {
     flex: 1;
+}
+
+.site-description {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-weight: bold;
 }
 
 .footer {
