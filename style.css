@@ -30,7 +30,7 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 200px;
+    padding: 0 400px;
 }
 
 .header a,
@@ -68,6 +68,10 @@ button {
     background-color: #3882F6;
     color: #F9FAF8;
     font-weight: bold;
+    padding: 8px;
+    border-radius: 8px;
+    width: 100px;
+    border: none;
 }
 
 .footer {
