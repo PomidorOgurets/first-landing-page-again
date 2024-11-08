@@ -15,18 +15,25 @@ a {
 }
 
 .header,
-.site-description {
+.site-description,
+.footer {
     background-color: #1F2937;
 }
 
-.header {
+.header,
+.site-description,
+.photos-section,
+.quote,
+.sign-up,
+.footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 200px;
 }
 
-.header a {
+.header a,
+.footer {
     color: #E5E7EB;
     font-size: 18px;
 }
@@ -45,6 +52,8 @@ a {
 }
 
 .footer {
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
