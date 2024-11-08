@@ -131,19 +131,65 @@ a {
     align-self: flex-end;
 }
 
-button {
+.sign-up {
+    padding-top: 20px;
+    padding-bottom: 0px;
+}
+
+.advert {
+    border-radius: 10px;
+    color: #F9FAF8 ;
+    padding: 20px 120px;
+    background-color: #3882F6;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.motivation-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.motivation-text h3,
+.motivation-text p {
+    margin: 0;
+}
+
+
+
+.button-1 {
     background-color: #3882F6;
     color: #F9FAF8;
     font-weight: bold;
     padding: 8px;
     border-radius: 8px;
     width: 100px;
-    border: none;
+    border-width: 0px;
+}
+
+.button-2 {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-weight: bold;
+    padding: 8px;
+    border-radius: 8px;
+    border-color: #F9FAF8;
+    width: 100px;
+    border-width: 2px;
+}
+
+.motivation-text .whites {
+    border-color: white;
+    border-style: solid;
+    border-width: 2px;
 }
 
 .footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 20px 600px;
 }
 
